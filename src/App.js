@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { connect } from 'react-redux';
+
 import './App.css';
 
-function App() {
+import { fetchData } from './store/actions'
+
+const App = ({ dispatchFetchData, userData }) => {
+  const [user, setUser]  = useState({})
+  useEffect(() => {
+    dispatchFetchData()
+  },[])
+  console.log(userData)
   return (
     <div className="App container">
       <header className="App-header">
-        Welcome 
+        {userData &&
+        `Welcome ${userData.lastName}, ${userData.firstName}`}
       </header>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => ({
+  userData: state.dataReducer.username.data
+})
+
+const mapDispatchToProps = dispatch => ({
+  dispatchFetchData: () => dispatch(fetchData())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
