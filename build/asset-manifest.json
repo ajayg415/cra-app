@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cra-app/static/css/main.c847c747.chunk.css",
+    "main.js": "/cra-app/static/js/main.bdfc058d.chunk.js",
+    "main.js.map": "/cra-app/static/js/main.bdfc058d.chunk.js.map",
+    "runtime-main.js": "/cra-app/static/js/runtime-main.8c271f9b.js",
+    "runtime-main.js.map": "/cra-app/static/js/runtime-main.8c271f9b.js.map",
+    "static/js/2.f8a985fb.chunk.js": "/cra-app/static/js/2.f8a985fb.chunk.js",
+    "static/js/2.f8a985fb.chunk.js.map": "/cra-app/static/js/2.f8a985fb.chunk.js.map",
+    "index.html": "/cra-app/index.html",
+    "precache-manifest.5ee95f6146a0cbfda2b709a8af9c8839.js": "/cra-app/precache-manifest.5ee95f6146a0cbfda2b709a8af9c8839.js",
+    "service-worker.js": "/cra-app/service-worker.js",
+    "static/css/main.c847c747.chunk.css.map": "/cra-app/static/css/main.c847c747.chunk.css.map",
+    "static/js/2.f8a985fb.chunk.js.LICENSE.txt": "/cra-app/static/js/2.f8a985fb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c271f9b.js",
+    "static/js/2.f8a985fb.chunk.js",
+    "static/css/main.c847c747.chunk.css",
+    "static/js/main.bdfc058d.chunk.js"
+  ]
+}
